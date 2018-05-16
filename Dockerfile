@@ -9,3 +9,5 @@ ADD cd /opt/spark/jars/ && \
     curl -O http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-azure-datalake/3.0.0-alpha3/hadoop-azure-datalake-3.0.0-alpha3.jar
 
 ADD sqljdbc42.jar /opt/spark/jars/
+
+RUN apk --update add snappy snappy-dev java-snappy-native libc6-compat
