@@ -2,7 +2,7 @@
 set -eux
 
 wget https://www-us.apache.org/dist/spark/spark-2.4.0/spark-2.4.0-bin-hadoop2.7.tgz
-tar zxf spark-2.4.0-bin-hadoop2.7.tgz
+tar zxf spark-2.4.0-bin-hadoop2.7.tgz
 cd spark-2.4.0-bin-hadoop2.7/jars
 curl -O http://repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.jar && \
 curl -O http://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar && \
